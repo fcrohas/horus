@@ -14,3 +14,5 @@ RUN add-apt-repository ppa:bqlabs/horus-dev && apt-get update
 RUN apt-get -y install horus 
 
 VOLUME /root/.horus
+
+CMD ["horus"]
