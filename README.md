@@ -6,7 +6,7 @@
 
   Before running this docker container you need to allow remote X11 connection on your X11 session :
      
-      <pre><code> fcr@nux-linux:~/> xhost + </pre></code> 
+  <pre><code> fcr@nux-linux:~/> xhost + </pre></code> 
 
   Then the container in privileged mode with X11 access :
    
