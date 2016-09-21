@@ -19,7 +19,7 @@ docker run -it --rm
     --device=/dev/video0:/dev/video0:rwm 
     --device=/dev/ttyUSB0:/dev/ttyUSB0:rwm 
     -v ~/projects/horus-docker/horus:/root/.horus 
-    horus:0.2
+    horus:latest
 ```
 
   Data is stored on your home directory like if horus is run in your computer.
